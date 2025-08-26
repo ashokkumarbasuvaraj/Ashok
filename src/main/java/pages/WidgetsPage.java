@@ -15,6 +15,8 @@ public class WidgetsPage {
 
     public WidgetsPage(Page page) {
         this.page = page;
+
+        //
         this.AUTOCOMPLETE_EDITBOX = page.locator("#autoCompleteSingleInput");
         this.BLUE_COLOUR_TEXT = page.getByText("Blue", new Page.GetByTextOptions().setExact(true));
         ; //Used to select Blue colour from Autocomplete editbox

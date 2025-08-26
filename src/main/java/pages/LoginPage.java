@@ -12,6 +12,9 @@ public class LoginPage {
     private final Locator BOOKS_SEARCH_BOX;
 
     public LoginPage(Page page) {
+
+
+
         this.page = page;
         this.USERNAME_EDITBOX = page.locator("#userName");
         this.PASSWORD_EDITBOX = page.locator("#password");

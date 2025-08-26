@@ -39,6 +39,8 @@ public class DriverFactory {
         return page;
     }
 
+
+
     public static synchronized Page getPage() {
         return threadLocalDriver.get(); // Will return Initialized Thread Local Driver
     }
