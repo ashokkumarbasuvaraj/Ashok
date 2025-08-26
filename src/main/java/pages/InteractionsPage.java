@@ -11,6 +11,7 @@ public class InteractionsPage {
 
     public InteractionsPage(Page page) {
         this.page = page;
+
         this.DRAGGABLE = page.getByRole(AriaRole.TABPANEL, new Page.GetByRoleOptions().setName("Simple")).locator("#draggable");
         this.DROPPABLE = page.getByRole(AriaRole.TABPANEL, new Page.GetByRoleOptions().setName("Simple")).locator("#droppable");
     }

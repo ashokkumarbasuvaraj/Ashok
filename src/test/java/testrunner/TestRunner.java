@@ -6,6 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
+
 @CucumberOptions(
         // Rerun failed tests from rerun.txt file
         features = {"src/test/resources/features/"},
